@@ -27,7 +27,7 @@ int main()
 	cout << f << endl;
 	float g = 1.2;
 	a = (float)g;
-	cout << a << endl;
+	cout <<"a"<<a << endl;
 	int p = 1001, j = 365, n;
 	n = (p - 1) * j; // error results in wrong answer since integer range is excluded on multiplication
 	n = (long)(p - 1) * j;
