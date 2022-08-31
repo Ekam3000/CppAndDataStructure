@@ -1,0 +1,3 @@
+difference b/w two 
+#define x 10-> preprocessor directive and is executed and performed before the compilation precess starts
+const int x=10; is an identifer which will consume memory and its value inside memory cant be modify

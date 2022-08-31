@@ -1,0 +1,25 @@
+file handling
+-> text file 
+1. int x=23;
+the individual numbers are wriitten in cscii code
+2->50 ;3->51
+these ascii numbers are converted into binary number (8 bit as ascii number takes 1 byte storage)
+50->00110010
+51->00110011
+so these binary number is stored in text files
+if u open this file file in notepad-> then these binary numbers will be converted to ascii codes->int numbers and will able to see number 23 on the notepad.
+for reading and writing from this text file u need just insersion and extraction operator.
+2. these are slower , as these needs convertion.
+3. this will take more space
+->binary file
+1.int x=23;
+23 is converted to binary number. assuming int number takes 2 byte of storage 
+0000000000010111 ,so this binary number is stored in binary file
+if u open this file file in notepad then u will get junk characters.
+for reading and writing from this binary file we need 
+mode ->ios::binary
+functions for read and write->
+read(), write().
+
+2.these are faster
+3. this will take less space.

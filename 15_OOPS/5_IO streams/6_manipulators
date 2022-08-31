@@ -1,0 +1,27 @@
+cout<<endl; // manipulator.
+integer type data 
+hex
+oct 
+dec
+cout<<hex<<163;
+ans will be A3
+
+floating point numbers
+fixed
+example->
+cout<<fixed<<125.731;
+scientific
+example->
+cout<<scientific<<125.731;
+
+other manipulators->
+set()
+left allignment
+right allignment
+ws (white sapce)
+
+examples->
+cout<<set(10)<<"Hello"; this hello will be displayed in 10 spaces.
+cout<<10<<ws<<20; 10 and 20 will be displayed with some spaces
+cout<<left <<"hello";
+cout<<right <<"hello";

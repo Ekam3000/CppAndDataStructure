@@ -1,0 +1,23 @@
+error
+1. syntax error - compiler solves these error
+2. logical error - debugger can help in solving the error, or u can find out your own created error by applying acurate logic 
+3. runtime error -these error are created by users
+example -> 1. bad input during run time it was asked to input a character but u typed a int.
+2.inavailability of resources. (internet connection,need some files to run program,printer requirement for running our program)
+so to deal with runtime error,exception handing is required..
+exception handling with help the user to run the program if an erroe occurs by giving a msg that what kind of error occurs.
+
+
+• Exceptions are Runtime errors
+• Try and catch blacks are used for handling exceptions
+• If exceptions are not handled then program may crash
+• Exceptions must give a message to the user, giving correct reason on cause of exception
+•
+• A try block can have Multiple catch blocks
+• Catch-All can catch all exception
+• Catch-All must be a last block
+• If classes in inheritance are used in catch block then child class should come first
+
+ 
+
+          
