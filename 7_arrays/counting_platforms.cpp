@@ -25,9 +25,7 @@ Sample Input 2 :
 1110 1102 1104 1106
 Sample Output 2 :
 2
-
 */
-
 #include<iostream>
 using namespace std;
 void selectionSort(int arr[], int n){
@@ -62,7 +60,6 @@ int main(){
     }
     selectionSort(arr,n);
     selectionSort(dep,n);
-
     int platforms=0;
     int maxtrains=0;
     int i=0;
