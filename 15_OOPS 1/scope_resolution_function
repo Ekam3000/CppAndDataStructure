@@ -1,0 +1,2 @@
+used for defining function outside the class
+the functions that are defined inside the class are called inline function .. the function definition replaces the function calling line in the main function. these inline function should not be very complex ,, these should be simple of 1-2 lines.
