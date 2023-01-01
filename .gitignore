@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 .vscode
+=======
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+>>>>>>> ed4b74997a4800784e326ab99331b1baab118fab
