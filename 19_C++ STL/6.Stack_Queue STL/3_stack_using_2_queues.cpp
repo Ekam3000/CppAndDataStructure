@@ -1,0 +1,3 @@
+// push() -> O(1) // just push the elements the non empty queue.
+// pop() ->O(n) // shifts the (n-1)elements from non empty queue(first queue) to empty queue(second queue) . then pop out the last element from the first queue.
+// top() -> O(n) //shifts the (n-1)elements from non empty queue(first queue) to empty queue(second queue) . then prints out the last element from the first queue, and then transfer to the second queue.

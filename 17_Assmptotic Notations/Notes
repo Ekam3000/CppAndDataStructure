@@ -1,0 +1,20 @@
+1<logn<n<nlogn<n^2<n^3<_ _ _ <2^n<3^n<_ _ _<n^n
+1->inserting an element in a stack or queue
+logn-> searching an element in BST or AVL tree 
+n->searching an element in an array or finding the maxinmum element in an array or linked list
+nlogn-> merge sort or quick sort 
+n^2-> matrix , also in the graphs, the time was dependent on the matrix
+2^n->tree recursion..
+1, logn,n,nlogn,n^2,n^3--> polynomial time complexities
+2^n,3^n,_ _ _ n^n--> exponential time complexities
+
+f(n) = summision(i=1 to i=n) i 
+this is mathematical form of O(n^2).
+f(n) = summision(i=1 to i=n) i*2^i  --> now this form cannot be simplified in terms of n directly then u cannot mention the time directly. we get an approximate formula. if that approximation is a lower value or a higher value..
+so if we are taking a lower value then u can say omega() .
+so if we are taking a upper value then u can say bigO() .
+so if we are taking a exact value then u can say theta() .
+example -->f(n) = summision(i=1 to i=n) i*2^i  
+lower bound of this is omega(2^n)
+upper bound of this is bigO(n2^n)
+exact value is (n2^n) if u are able to solve this summition

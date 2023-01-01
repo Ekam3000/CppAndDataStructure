@@ -1,0 +1,3 @@
+string is an alternative for character array.
+string is an container with wraps an character array within it.
+while defining a string it should be inside double quotes.

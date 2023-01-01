@@ -15,6 +15,8 @@ int main()
 	a = c;
 	cout << a << endl;
 	float f = 1.2;
+	//If the conversion is from a floating-point type to an integer type, the value is truncated (the decimal part is removed).
+	//Some of these conversions may imply a loss of precision, which the compiler can signal with a warning. This warning can be avoided with an explicit conversion.
 	a = f;
 	c=f;
 	cout << a << endl;
@@ -75,4 +77,17 @@ long long -> float -> double -> long double
 	// Explicit conversion from double to int
 	int sum = (int)d + 1;
 	cout << "Sum = " << sum;
+
+/*
+An important concept to understand in C++ is "casting." This is the phenomenon where a value is automatically converted to a different type in order to allow an operation to continue. For example, if you try to add together a floating point double value and an integer int value, the int will be converted to double first, and then the result of the addition will have type double as well.
+explicit ->
+ But if you save a double value to an int variable, the floating point value will be truncated to an integer*/
+  int l = 2;
+  double m = 3.5;
+  std::cout << "This result will be a double with value 5.5: " << (l+m) << std::endl;
+  
+  int o = (l+m); // This expression is calculated as a double, but then it's cast back to int!
+  std::cout << "This result will be an int with value 5: " << o << std::endl;
+  return 0;
 }
+

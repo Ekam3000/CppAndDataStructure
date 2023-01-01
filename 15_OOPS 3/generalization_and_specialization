@@ -1,0 +1,25 @@
+there are two purpose of inheritance-> generalization and sepecialization.
+
+rectangle  
+   |
+cuboid
+ here couboid is inheriting from rectangle , so rectangle is an generalized class, and cuboid is an specialized class
+
+innova
+  |
+fortuner
+same here
+
+           car
+      /     |      \
+    innova  swift   benz
+
+why did we achieve generalization?
+ans->
+           car
+      /     |       \
+    innova  swift   benz
+ 
+ to achieve polymorphism , all innova ,swift and benz are cars . car is ageneral word for these all
+
+ and the purpose of specialization is to share its features to its child class

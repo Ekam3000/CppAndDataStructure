@@ -1,0 +1,56 @@
+generic programming using templates-->
+generic programming can be done at two levels-->
+1. algorithms 
+2. container--> we can also make any container as generic. will see it in an vector class.
+
+containers in stl
+1.sequencial containers: implement data structure which can be assessed in a sequential manner( iteration over the data)
+
+ .vector
+ .list(doubly linked list)
+ .deque(doubly ended- insersion, deletion,iteration,searching etc from both the ends)
+ .arrays
+ .forward_list(singly linked list)
+
+2. container adapters: provides different interface for sequential containers.(you have restriction over accessing the data of the data structure.)
+.queue 
+.priority_queue--> is a heap kind of--> implemented using arrays.
+.stack --> implementeed using array or linked list (we have assessed over the top most element only)
+
+3.associative containers: implement stored data structures that can be quickly searched(O(logn) complexity) --> stores data in a sorted manner--> most of these containers are of the kind BST.
+. set  
+.multiset
+.map
+.multimap
+
+4.unordered associative containers: implement unordered data structures that can be quckly searched-->( a particular order is not defined) -->for ex hashmaps
+.unordered_set
+.unordered_multiset
+.unordered_map
+
+NOTE--> all of the above containers are generic in nature ..
+
+Iterators in STL->
+.input iterators:
+A entity through which u can read data from container and move ahead.
+ex-> keyboard.
+
+.Output Iterators
+A entity through which u can write data into the  container and move ahead.
+ex-> printer
+
+.forward iterator
+functionalities of input and output.
+example- singly linked list.
+
+.Bidirectional iterators
+Forward iterators that can move in both direction.
+example -> doubly linked list
+
+.random Access Iterators
+example -> array or vectors ( we can jump from one place to other and hence read or write )
+
+Why learn iterators?
+example-
+we made search() function to work on all data-types using templates.
+Now we can make search() function to work on all types of containers using iterators.
